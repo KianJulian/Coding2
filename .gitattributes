@@ -1,2 +1,13 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+
+switch (prompt("What is the weather like")) {
+  case "rainy":
+    console.log("Remember to bring an umbrella.");
+    break;
+  case "sunny":
+    console.log("Dress lightly.");
+  case "cloudy":
+    console.log("Go Outside.");
+    break;
+  default:
+    console.log("Unknown weather type!");
+    break;
